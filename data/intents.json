@@ -1,0 +1,201 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Ola",
+                "Magandang umaga",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                {
+                    "text": "Hey, welcome to our shop!",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "Hello, thanks for visiting!",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "Hi there, what can I do for you?",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "Hi there, how can I help?",
+                    "link": "https://www.goldilocks.com.ph/"
+                }
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                {
+                    "text": "See you later, thanks for visiting!",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "Have a nice day!",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "Bye! Come back again soon.",
+                    "link": "https://www.goldilocks.com.ph/"
+                }
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "Thank you for helping me",
+                "Thank you for the service.",
+                "Thank you for your assistance"
+            ],
+            "responses": [
+                {
+                    "text": "Happy to help!",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "Any time!",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "My pleasure.",
+                    "link": "https://www.goldilocks.com.ph/"
+                }
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?",
+                "Do you have any drinks?",
+                "What do you have here?",
+                "What is available?",
+                "What can I order?",
+                "What is your best-seller?",
+                "Do you have something to eat?",
+                "Do you have something to drink?",
+                "Do you have anything hot here?",
+                "What can you recommend?",
+                "What should I eat today?",
+                "What can I eat here?",
+                "What can I buy here?"
+            ],
+            "responses": [
+                {
+                    "text": "We sell bread, cakes, drinks, and lunch.",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "We have breads, cakes, drinks, and lunch.",
+                    "link": "https://www.goldilocks.com.ph/"
+                }
+            ]
+        },
+        {
+            "tag": "promos",
+            "patterns": [
+                "Do you have promotions on your items?",
+                "Do you have some promo?",
+                "Do I get a discount?",
+                "Do you have promos?",
+                "Do you have a promo today?"
+            ],
+            "responses": [
+                {
+                    "text": "We do have, but for today we have everything at their original price.",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "We do give promos but unfortunately we don't have for today.",
+                    "link": "https://www.goldilocks.com.ph/"
+                }
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "How to pay?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?",
+                "How do I pay?",
+                "What are your payment methods?",
+                "Do you accept anything other than cash?",
+                "How can I pay?",
+                "What are your modes of payment?"
+            ],
+            "responses": [
+                {
+                    "text": "You can pay in cash, or electronically via credit card or Paypal.",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "We gladly accept cash, and VISA, Mastercard, or Paypal as well.",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "We accept cash and most major credit cards or Paypal.",
+                    "link": "https://www.goldilocks.com.ph/"
+                }
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?",
+                "Do you ship?",
+                "Do you deliver?"
+            ],
+            "responses": [
+                {
+                    "text": "Delivery takes at most 1-3 days.",
+                    "link": "https://www.goldilocks.com.ph/"
+                },
+                {
+                    "text": "We do ship and it takes at most 1-3 days.",
+                    "link": "https://www.goldilocks.com.ph/"
+                }
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?",
+                "Do you have some joke?"
+            ],
+            "responses": [
+                {
+                    "text": "What do you call a bear with no teeth? A gummy bear!"
+                },
+                {
+                    "text": "Why don't cats play poker in the jungle? Too many cheetahs!"
+                }
+            ]
+        }
+    ]
+}
