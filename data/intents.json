@@ -16,20 +16,16 @@
             ],
             "responses": [
                 {
-                    "text": "Hey, welcome to our shop!",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Hey, welcome to our shop!"
                 },
                 {
-                    "text": "Hello, thanks for visiting!",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Hello, thanks for visiting!"
                 },
                 {
-                    "text": "Hi there, what can I do for you?",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Hi there, what can I do for you?"
                 },
                 {
-                    "text": "Hi there, how can I help?",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Hi there, how can I help?"
                 }
             ]
         },
@@ -42,16 +38,13 @@
             ],
             "responses": [
                 {
-                    "text": "See you later, thanks for visiting!",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "See you later, thanks for visiting!"
                 },
                 {
-                    "text": "Have a nice day!",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Have a nice day!"
                 },
                 {
-                    "text": "Bye! Come back again soon.",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Bye! Come back again soon."
                 }
             ]
         },
@@ -68,16 +61,13 @@
             ],
             "responses": [
                 {
-                    "text": "Happy to help!",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Happy to help! Thanks for visiting Goldilocks."
                 },
                 {
-                    "text": "Any time!",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Any time! Thanks for visiting Goldilocks."
                 },
                 {
-                    "text": "My pleasure.",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "My pleasure. Thanks for visiting Goldilocks."
                 }
             ]
         },
@@ -102,11 +92,11 @@
             ],
             "responses": [
                 {
-                    "text": "We sell bread, cakes, drinks, and lunch.",
+                    "text": "We sell bread, cakes, drinks, and lunch. You can find our available products",
                     "link": "https://www.goldilocks.com.ph/"
                 },
                 {
-                    "text": "We have breads, cakes, drinks, and lunch.",
+                    "text": "We have breads, cakes, drinks, and lunch. You can find our available products",
                     "link": "https://www.goldilocks.com.ph/"
                 }
             ]
@@ -122,12 +112,12 @@
             ],
             "responses": [
                 {
-                    "text": "We do have, but for today we have everything at their original price.",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Yes we have. You can check out our available promos",
+                    "link": "https://www.goldilocks.com.ph/promos"
                 },
                 {
-                    "text": "We do give promos but unfortunately we don't have for today.",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "We do give promos! You can check out our available promos",
+                    "link": "https://www.goldilocks.com.ph/promos"
                 }
             ]
         },
@@ -161,6 +151,61 @@
             ]
         },
         {
+            "tag": "location",
+            "patterns": [
+                "Where are you located?",
+                "Where are your stores located?",
+                "Where can I visit an actual store?",
+                "Where is your actual store?",
+                "Where is your physical store?",
+                "Do you have a store that I can visit?",
+                "Can I eat at your store?"
+            ],
+            "responses": [
+                {
+                    "text": "You can find our available stores",
+                    "link": "https://www.goldilocks.com.ph/stores"
+                },
+                {
+                    "text": "Go and visit us. You can find our stores near you",
+                    "link": "https://www.goldilocks.com.ph/stores"
+                },
+                {
+                    "text": "Pay us a visit. Find a store near you",
+                    "link": "https://www.goldilocks.com.ph/stores"
+                },
+                {
+                    "text": "You can eat at any Goldilocks store near you. Find one",
+                    "link": "https://www.goldilocks.com.ph/stores"
+                }
+            ]
+        },
+        {
+            "tag": "order",
+            "patterns": [
+                "How to order?",
+                "How can I order?",
+                "How can I place my order?",
+                "Can you take my order?",
+                "Will you take my order?",
+                "I want to order"
+            ],
+            "responses": [
+                {
+                    "text": "You can place an order",
+                    "link": "https://www.goldilocksdelivery.ph/"
+                },
+                {
+                    "text": "Find the food you like and order from",
+                    "link": "https://www.goldilocksdelivery.ph/"
+                },
+                {
+                    "text": "Check out our available products and order",
+                    "link": "https://www.goldilocksdelivery.ph/"
+                }
+            ]
+        },
+        {
             "tag": "delivery",
             "patterns": [
                 "How long does delivery take?",
@@ -171,12 +216,12 @@
             ],
             "responses": [
                 {
-                    "text": "Delivery takes at most 1-3 days.",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "Delivery takes at most 1-3 days. You can place your order",
+                    "link": "https://www.goldilocksdelivery.ph/"
                 },
                 {
-                    "text": "We do ship and it takes at most 1-3 days.",
-                    "link": "https://www.goldilocks.com.ph/"
+                    "text": "We do ship and it takes at most 1-3 days. Quick and place your order",
+                    "link": "https://www.goldilocksdelivery.ph/"
                 }
             ]
         },
@@ -190,10 +235,12 @@
             ],
             "responses": [
                 {
-                    "text": "What do you call a bear with no teeth? A gummy bear!"
+                    "text": "What do you call a bear with no teeth? A gummy bear! Find more jokes",
+                    "link": "https://www.rd.com/list/funny-jokes-national-tell-joke-day/"
                 },
                 {
-                    "text": "Why don't cats play poker in the jungle? Too many cheetahs!"
+                    "text": "Why don't cats play poker in the jungle? Too many cheetahs! Treat yourself to funnier jokes",
+                    "link": "https://www.rd.com/list/funny-jokes-national-tell-joke-day/"
                 }
             ]
         }

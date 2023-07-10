@@ -80,7 +80,7 @@ def get_response(msg):
 
                 # Build the final response with or without a link
                 if link:
-                    response_with_link = f'{response_text} You can find more information <a href="{link}" target="_blank">here</a>.'
+                    response_with_link = f'{response_text} <a href="{link}" target="_blank">here</a>.'
                     return response_with_link
                 else:
                     return response_text
