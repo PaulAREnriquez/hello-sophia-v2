@@ -1,7 +1,13 @@
 Hello Sophia v.2
 
-![hello-sophia-v2](https://github.com/PaulAREnriquez/hello-sophia-v2/assets/105270881/06d2d022-0e6d-4a88-b9c3-6e246b0b2758)
-![hello-sophia-v2-2](https://github.com/PaulAREnriquez/hello-sophia-v2/assets/105270881/8773aac3-4610-4b39-bca5-217694cee49b)
+Sample welcome conversation: 
+![hello-sophia-v2-convo1](https://github.com/PaulAREnriquez/hello-sophia-v2/assets/105270881/e2557817-3da4-4e44-a1a5-8c11be30f820)
+
+Sample of conversation in which Sophia cannot understand:
+![hello-sophia-convo2](https://github.com/PaulAREnriquez/hello-sophia-v2/assets/105270881/0e3f93e8-ad24-4dd3-8592-2db07c3dc011)
+
+Sample goodbye conversation:
+![hello-sophia-convo3](https://github.com/PaulAREnriquez/hello-sophia-v2/assets/105270881/bae73d3a-341d-404b-8e61-068e4633a197)
 
 Hello Sophia is a simple customer service assistant designed for a store similar to Goldilocks bakeshop. A simple neural network designed for multi-class classification is developed in Pytorch. It will predict the category of the query of the customer, and based on the category it will try to answer from a list of pre-determined statements. The application is made with Flask and JavaScript.
 
